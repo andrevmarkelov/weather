@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Узнать погоду</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <section>
+
+        <div id="root">
+            <div class="header">
+
+                <div class="points">
+                    <div class="point-1"></div>
+                    <div class="point-2"></div>
+                    <div class="point-3"></div>
+                </div>
+                <a href="index.html">Погода</a>
+
+            </div>
+
+            <div class="content">
+
+                <div class="search">
+                    <input type="text" id="input" placeholder="Введите город">
+                    <button id="button">Узнать погоду</button>
+                </div>
+
+                <div class="weatherInfo">
+                    <p class="temp"></p>
+                    <div id="icon">
+                        <p class="description"></p>
+                        <img id="wicon" src="" alt="">
+                    </div>
+                    <p class="sity"></p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
